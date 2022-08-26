@@ -1,0 +1,54 @@
+
+ @tailwind base;
+ @tailwind components;
+ 
+ 
+ .input {
+   @apply appearance-none block w-full bg-gray-100 text-gray-600 border border-gray-400 rounded py-3 px-4 leading-tight;
+ }
+ 
+ .input:focus {
+   @apply outline-none bg-white border-teal-green;
+ }
+ 
+ .label {
+   @apply block uppercase text-teal-green text-xs font-bold mb-2;
+ }
+
+ .btn {
+    @apply block font-bold px-4 rounded cursor-pointer no-underline bg-teal-green w-full text-white py-4; 
+ }
+
+ .btn:hover {
+    @apply bg-light-green;
+ }
+  
+ .select {
+   @apply appearance-none py-3 px-4 pr-8 block w-full bg-gray-100 border border-gray-400 text-gray-600
+    rounded leading-tight;
+    -webkit-appearance: none;
+ }
+ 
+ .select:focus {
+   @apply outline-none bg-white border-gray-500;
+ }
+ 
+ .link {
+   @apply no-underline;
+ }
+ 
+ .link-green {
+   @apply text-teal-800 text-sm;
+ }
+ 
+ .link-green:hover {
+   @apply text-teal-600;
+ }
+
+ .link-white {
+   @apply text-white;
+ }
+ 
+ @tailwind utilities;
+ 
+ 
